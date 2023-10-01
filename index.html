@@ -18,59 +18,62 @@
 </head>
 
 <body>
-<section class="sidebar-conteiner">
-  <img id='logo' src="./media/sanaki_logo.svg" alt="sanakilogo">
-    <nav>
-      <ul class="main-menu">
-        <li><a class="speciala" href="#">
-            <div><img src="./media/home.svg" alt="homeicon"></div><span class="descriptionspec">Dashboard</span>
-          </a></li>
-        <li><a href="#">
-            <div><img src="./media/file-text.svg" alt="filetext"></div><span class="description">Product</span>
-          </a></li>
-        <li><a href="#">
-            <div><img src="./media/clipboard.svg" alt="clipboard"></div><span class="description">Orders</span>
-          </a></li>
-        <li><a href="#">
-            <div><img src="./media/customers.svg" alt="customers"></div><span class="description">Customers</span>
-          </a></li>
-        <li><a href="#">
-            <div><img id="chat" src="./media/chat.svg" alt="chat"></div><span class="description">CusChat</span>
-          </a></li>
-      </ul>
-    </nav>
-
-    <div class="profile-conteiner">
-      <p>Profile</p>
-      <div class="profile-wrapper">
-        <img src="./media/backgrounfon.svg" alt="font">
-        <div>
-          <h3>Amishka</h3>
-          <h3 class="status">Shopper</h3>
+  <section class="sidebar-conteiner">
+    <div class="sticky">
+      <img id='logo' src="./media/sanaki_logo.svg" alt="sanakilogo">
+      <nav>
+        <ul class="main-menu">
+          <li><a class="speciala" href="#">
+              <div><img src="./media/home.svg" alt="homeicon"></div><span class="descriptionspec">Dashboard</span>
+            </a></li>
+          <li><a href="#">
+              <div><img src="./media/file-text.svg" alt="filetext"></div><span class="description">Product</span>
+            </a></li>
+          <li><a href="#">
+              <div><img src="./media/clipboard.svg" alt="clipboard"></div><span class="description">Orders</span>
+            </a></li>
+          <li><a href="#">
+              <div><img src="./media/customers.svg" alt="customers"></div><span class="description">Customers</span>
+            </a></li>
+          <li><a href="#">
+              <div><img id="chat" src="./media/chat.svg" alt="chat"></div><span class="description">CusChat</span>
+            </a></li>
+        </ul>
+      </nav>
+  
+      <div class="profile-conteiner">
+        <p>Profile</p>
+        <div class="profile-wrapper">
+          <img src="./media/backgrounfon.svg" alt="font">
+          <div>
+            <h3>Amishka</h3>
+            <h3 class="status">Shopper</h3>
+          </div>
         </div>
+        <button>
+          <div class="profilebtn">
+            <img class="logbtn" src="./media/log-out.svg" alt="logout">
+            <p class="logbtntext">Log out</p>
+          </div>
+        </button>
       </div>
-      <button>
-        <div class="profilebtn">
-          <img class="logbtn" src="./media/log-out.svg" alt="logout">
-          <p class="logbtntext">Log out</p>
-        </div>
-      </button>
+      </div>
     </div>
-  </div>
-</section>
-  
-
-<main>
-  <header class="grid-table-header">
-    <div class="grid-table-header-text-wrapper">
-      <h4>Dashboard</h4>
-      <p>12th January of 2023, 12:00 pm</p>
-    </div>
-  </header>
-  
-  <section class="main-content">
-   
     
+  </section>
+
+
+  <main>
+    <header class="grid-table-header">
+      <div class="grid-table-header-text-wrapper">
+        <h4>Dashboard</h4>
+        <p>12th January of 2023, 12:00 pm</p>
+      </div>
+    </header>
+
+    <section class="main-content">
+
+
       <div class="order-status block1">
         <div class="order-title">
           <p id="price">240</p>
@@ -101,10 +104,10 @@
       </div>
 
       <div class="line"></div>
-      
 
-  
-   
+
+
+
       <div class="order-action block5">
         <div class="action-wrapper">
           <p id="productUpgrade">Add new Product</p>
@@ -119,75 +122,85 @@
         </div>
         <img id="actionImg" src="./media/add.svg" alt="">
       </div>
-   
-     
-      
-    
-    
-    <div class="order-stock block7">
-      <div>
-        <p id="stockdescription">Stock Summery</p>
+
+
+
+
+
+      <div class="order-stock block7">
         <div>
-          <div class="stock-wrapper">
-            <img src="./media/addedStockImg.svg" alt="">
-            <p>Added Stock</p>
+          <p id="stockdescription">Stock Summery</p>
+          <div>
+            <div class="stock-wrapper">
+              <img src="./media/addedStockImg.svg" alt="">
+              <p>Added Stock</p>
+            </div>
+            <div class="stock-wrapper">
+              <img src="./media/availableStockImg.svg" alt="">
+              <p>Available Stock</p>
+            </div>
+            <img id="circle" src="./media/circlewithprocents.svg" alt="">
           </div>
-          <div class="stock-wrapper">
-            <img src="./media/availableStockImg.svg" alt="">
-            <p>Available Stock</p>
-          </div>
-          <img  id="circle" src="./media/circlewithprocents.svg" alt="">
-        </div>
-        
-        <div class="scroll-container">
-          <div class="scroll-content">
-            <div class="low-stock-conteiner">
-              <p id="low-stock-tag">Low stock Products</p>
-              <div class="low-stock-wrapper">
-                <p>Product name</p>
-                <p id="remaining">Remaining 10%</p>
-              
+
+          <div class="scroll-container">
+            <div class="scroll-content">
+              <div class="low-stock-conteiner">
+                <p id="low-stock-tag">Low stock Products</p>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 10%</p>
+
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 25%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 33%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 35%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 35%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 35%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 35%</p>
+                </div>
+                <hr>
+                <div class="low-stock-wrapper">
+                  <p id="productname">Product name</p>
+                  <p id="remaining">Remaining 85%</p>
+                </div>
               </div>
-              <hr>
-              <div class="low-stock-wrapper">
-                <p id="productname">Product name</p>
-                <p id="remaining">Remaining 25%</p>
-              </div>
-              <hr>
-              <div class="low-stock-wrapper">
-                <p>Product name</p>
-                <p id="remaining">Remaining 33%</p>
-              </div>
-              <hr>
-              <div class="low-stock-wrapper">
-                <p>Product name</p>
-                <p id="remaining">Remaining 35%</p>
-              </div>
-              <hr>
-              <div class="low-stock-wrapper">
-                <p>Product name</p>
-                <p id="remaining">Remaining 35%</p>
-              </div>
-              <hr>
-              <div class="low-stock-wrapper">
-                <p>Product name</p>
-                <p id="remaining">Remaining 35%</p>
-              </div>
-              <hr>
             </div>
           </div>
+
         </div>
-        
       </div>
+
+
+
+
+    </section>
+
     </div>
-
-
-    
-  
-  </section>
-  
-  </div>
-</main>
+  </main>
 
 </body>
+
 </html>
