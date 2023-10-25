@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./dashboard.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,53 +14,50 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-  <title>sanakinlt</title>
+  <title>Dashboard</title>
 </head>
 
 <body>
   <section class="sidebar-conteiner">
-    
-      <img id='logo' src="./media/sanaki_logo.svg" alt="sanakilogo">
-      <nav>
-        <ul class="main-menu">
-          <li><a class="speciala" href="#">
-              <div><img src="./media/home.svg" alt="homeicon"></div><span class="descriptionspec">Dashboard</span>
-            </a></li>
-          <li><a href="#">
-              <div><img src="./media/file-text.svg" alt="filetext"></div><span class="description">Product</span>
-            </a></li>
-          <li><a href="#">
-              <div><img src="./media/clipboard.svg" alt="clipboard"></div><span class="description">Orders</span>
-            </a></li>
-          <li><a href="#">
-              <div><img src="./media/customers.svg" alt="customers"></div><span class="description">Customers</span>
-            </a></li>
-          <li><a href="#">
-              <div><img id="chat" src="./media/chat.svg" alt="chat"></div><span class="description">CusChat</span>
-            </a></li>
-        </ul>
-      </nav>
+    <img id='logo' src="./media/dashboard-img/sanakin-logo-icon.svg" alt="sanakinLogo">
+    <nav>
+      <ul class="main-menu">
+        <li><a class="speciala" href="./homepage.html">
+            <div><img src="./media/dashboard-img/home-icon.svg" alt="home-icon"></div><span class="descriptionspec">Dashboard</span>
+          </a></li>
+        <li><a href="#">
+            <div><img src="./media/dashboard-img/file-text-icon.svg" alt="file-text-icon"></div><span class="description">Product</span>
+          </a></li>
+        <li><a href="#">
+            <div><img src="./media/dashboard-img/clipboard-icon.svg" alt="clipboard-icon"></div><span class="description">Orders</span>
+          </a></li>
+        <li><a href="#">
+            <div><img src="./media/dashboard-img/customers-icon.svg" alt="customers-icon"></div><span class="description">Customers</span>
+          </a></li>
+        <li><a href="#">
+            <div><img id="chat" src="./media/dashboard-img/chat-icon.svg" alt="chat-icon"></div><span class="description">CusChat</span>
+          </a></li>
+      </ul>
+    </nav>
 
-      <div class="profile-conteiner">
-        <p>Profile</p>
-        <div class="profile-wrapper">
-          <img src="./media/backgrounfon.svg" alt="font">
-          <div>
-            <h3>Amishka</h3>
-            <h3 class="status">Shopper</h3>
-          </div>
+    <div class="profile-conteiner">
+      <p>Profile</p>
+      <div class="profile-wrapper">
+        <img src="./media/dashboard-img/user-background-icon.svg" alt="user-background-icon">
+        <div>
+          <h3>Amishka</h3>
+          <h3 class="status">Shopper</h3>
         </div>
-        <button>
-          <div class="profilebtn">
-            <img class="logbtn" src="./media/log-out.svg" alt="logout">
-            <p class="logbtntext">Log out</p>
-          </div>
-        </button>
       </div>
-    
+      <button>
+        <div class="profile-button">
+          <img src="./media/dashboard-img/log-out-icon.svg" alt="log-out-icon">
+          <p class="log-botton-text">Log out</p>
+        </div>
+      </button>
+    </div>
     </div>
   </section>
-
 
   <main>
     <header class="grid-table-header">
@@ -78,28 +75,28 @@
           <p id="price">240</p>
           <p id="order-details">Total Products</p>
         </div>
-        <img id="imgprice" src="./media/box.svg" alt="box">
+        <img id="img-price" src="./media/dashboard-img/box-icon.svg" alt="box-icon">
       </div>
       <div class="order-status block2">
         <div class="order-title">
           <p id="price">1200</p>
           <p id="order-details">Total Sales</p>
         </div>
-        <img id="imgprice" src="./media/sales.svg" alt="sales">
+        <img id="img-price" src="./media/dashboard-img/sales-icon.svg" alt="sales-icon">
       </div>
       <div class="order-status block3">
         <div class="order-title">
           <p id="price">240</p>
           <p id="order-details">Pending Orders</p>
         </div>
-        <img id="imgprice" src="./media/product.svg" alt="products">
+        <img id="img-price" src="./media/dashboard-img/product-icon.svg" alt="products-icon">
       </div>
       <div class="order-status block4">
         <div class="order-title">
           <p id="price">240</p>
           <p id="order-details">On Proccess to Delivary</p>
         </div>
-        <img id="imgprice" src="./media/deliveryTruck.svg" alt="delivery">
+        <img id="img-price" src="./media/dashboard-img/delivery-icon.svg" alt="delivery-icon">
       </div>
 
       <div class="line"></div>
@@ -109,17 +106,17 @@
 
       <div class="order-action block5">
         <div class="action-wrapper">
-          <p id="productUpgrade">Add new Product</p>
-          <p id="producUpgradeSecond">introduce your new product to the market.</p>
+          <p id="product-upgrade">Add new Product</p>
+          <p id="produc-upgrade-second">introduce your new product to the market.</p>
         </div>
-        <img id="actionImg" src="./media/productFontBlack.svg" alt="">
+        <img id="action-img" src="/media/dashboard-img/product-icon-black.svg" alt="product-icon-black">
       </div>
       <div class="order-action block6">
         <div class="action-wrapper">
-          <p id="productUpgrade">Increase Items</p>
-          <p id="producUpgradeSecond">increase the product ha.</p>
+          <p id="product-upgrade">Increase Items</p>
+          <p id="produc-upgrade-second">increase the product ha.</p>
         </div>
-        <img id="actionImg" src="./media/add.svg" alt="">
+        <img id="action-img" src="media/dashboard-img/add-icon.svg" alt="add-icon">
       </div>
 
 
@@ -128,17 +125,17 @@
 
       <div class="order-stock block7">
         <div>
-          <p id="stockdescription">Stock Summery</p>
+          <p id="stock-description">Stock Summery</p>
           <div>
             <div class="stock-wrapper">
-              <img src="./media/addedStockImg.svg" alt="">
+              <img src="./media/dashboard-img/add-stock-icon.svg" alt="add-stock-icon">
               <p>Added Stock</p>
             </div>
             <div class="stock-wrapper">
-              <img src="./media/availableStockImg.svg" alt="">
+              <img src="./media/dashboard-img/available-stock-icon.svg" alt="available-stock-icon">
               <p>Available Stock</p>
             </div>
-            <img id="circle" src="./media/circlewithprocents.svg" alt="">
+            <img id="circle" src="/media/dashboard-img/circle-icon.svg" alt="circle-icon">
           </div>
 
           <div class="scroll-container">
@@ -146,43 +143,43 @@
               <div class="low-stock-conteiner">
                 <p id="low-stock-tag">Low stock Products</p>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 10%</p>
 
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 25%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 33%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 35%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 35%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 35%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 35%</p>
                 </div>
                 <hr>
                 <div class="low-stock-wrapper">
-                  <p id="productname">Product name</p>
+                  <p id="product-name">Product name</p>
                   <p id="remaining">Remaining 85%</p>
                 </div>
               </div>
