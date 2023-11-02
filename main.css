@@ -24,7 +24,7 @@ header {
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    width: 1110px;
+    max-width: 1110px;
 }
 .main-navigation {
     margin: 0px 0px 0px 114px;
@@ -84,7 +84,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
-    width: 1110px;
+    max-width: 1110px;
     margin: 25px auto 0px auto;
     border-radius: 10px;
   }
@@ -165,7 +165,7 @@ header {
 }
 
 .shop-categories {
-  width: 1110px;
+  max-width: 1110px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -279,6 +279,7 @@ gap: 20px;
   width: 262px;
   height: 456px;
   flex-shrink: 0;
+  margin-top: 20px;
 }
 .deal-wrapper img {
   width: 265px;
@@ -290,4 +291,25 @@ gap: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.deal-wrapper h2 {
+  width: 262px;
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+}
+
+.deal-wrapper p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.deal-wrapper button {
+  border-radius: 100px;
+  border: 1px solid #FF9C00;
+  background: #FF9C00;
+  width: 116px;
+  height: 35px;
+  color: white;
 }
